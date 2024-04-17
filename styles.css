@@ -1,0 +1,48 @@
+/* styles.css */
+/* Increase width of the TOC */
+
+.tocify {
+    width: 300px !important;
+}
+
+/* Adjust the main content margin to accommodate the wider TOC */
+.main-container {
+    margin-left: 320px !important;
+}
+
+.toc {
+    background-color: #f8f9fa; /* Background color */
+    border: 1px solid #dee2e6; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    max-width: 300px; /* Maximum width */
+    margin: 20px auto; /* Centered */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  
+  .toc-title {
+    font-size: 1.2em; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    margin-bottom: 10px; /* Bottom margin */
+  }
+  
+  .toc-list {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .toc-list-item {
+    margin-bottom: 5px; /* Bottom margin for each list item */
+  }
+  
+  .toc-list-item a {
+    color: #343a40; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .toc-list-item a:hover {
+    color: #007bff; /* Link color on hover */
+  }
+  
